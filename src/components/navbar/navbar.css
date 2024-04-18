@@ -1,0 +1,272 @@
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  cursor: pointer;
+} 
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #517A8F;
+  display: block;
+  margin: auto;
+  transition: width 0.15s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+nav .fa {
+  display: none;
+}
+
+.swiftrise__navbar-navlinks__mobile {
+  display: none;
+}
+
+.whatsapp__chat {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.whatsapp__icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.whatsapp__dropdown-container {
+  color: #fff;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  position: absolute;
+  bottom: 3.5rem;
+  right: 0px;
+  width: 300px;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.whatsapp__dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: linear-gradient(to right, #3498db, #2980b9);
+}
+
+.whatsapp__dropdown-close {
+  margin-right: 1rem;
+  width: 20px;
+}
+
+.whatsapp__dropdown-heading {
+  padding: 0.5rem;
+  display: flex;
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.whatsapp__dropdown-body {
+  display: flex;
+  justify-content: start;
+}
+
+.whatsapp__dropdown-body__customercare-container {
+  display: flex;
+  flex: 1;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom-width: 2px;
+  background-color: #fff;
+  color: #000000;
+  border-bottom: .7px solid rgb(214, 214, 214);
+}
+
+.whatsapp__dropdown-body__customercare-container__image {
+  width: 50px;
+  margin-right: 1rem;
+  padding: 0;
+}
+
+.whatsapp__dropdown-body__customercare-container__title {
+  color: #000000;
+  font-size: 13px;
+  padding-bottom: 0;
+  padding: 0;
+}
+
+.whatsapp__dropdown-body__customercare-container__name {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0;
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (max-width: 700px) {
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: fixed;
+    background: #517A8F;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul {
+    padding: 0;
+  }
+
+  .swiftrise__navbar-navlinks__mobile-links li {
+    padding: 0;
+    font-size: small;
+  }
+
+  .swiftrise__navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  .swiftrise__navbar-navlinks {
+    display: none;
+  }
+
+  .swiftrise__navbar-navlinks__mobile{
+    display: flex;
+  }
+
+  .swiftrise__navbar-logo {
+    width: 150px;
+    position: relative;
+    transition: 0.6s;
+    background-color: transparent;
+  }
+
+  .swiftrise__navbar-navlinks__mobile {
+    background-color: transparent;
+    z-index: 1;
+    color: transparent;
+  }
+  
+  .swiftrise__navbar-navlinks__mobile-toggle {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+    color: #fff;
+  }
+
+  .toggle__flex {
+    display: flex;
+    padding: 1.5rem;
+    position: absolute;
+    top: 5rem;
+    right: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    min-width: 10px;
+    border-radius: 0.75rem;
+    background: linear-gradient(to bottom, #000000, #1a202c);
+  }
+
+  .toggle__hidden {
+    display: none;
+  }
+
+  .swiftrise__navbar-navlinks__mobile-links {
+    /* position: inherit; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex: 1;
+    background-color: transparent;
+  }
+
+  .swiftrise__navbar-navlinks__mobile-links a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .mr-0 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 0px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .mb-4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .whatsapp__dropdown-container {
+    width: 250px;
+  }
+}
