@@ -6,9 +6,9 @@ import './header.css'
 const Header = () => {
   return (
     <div className="text-box" id='home'>
-      <h1>Redefining Elevation Solutions in Africa</h1>
+      <h1>Welcome to BELLA MAI DESIGNS by Precise.</h1>
       <p>
-      Your premier destination for state-of-the-art escalators and lifts in Lagos, Nigeria.
+      Your ultimate destination for exquisite furniture and interior designs in Lagos, Nigeria.
       </p>
       <a href="https://www.instagram.com/swiftrise.ng/" target='_blank'>
         {/* <Button text='Visit Us To Know More' style='hero-btn' /> */}

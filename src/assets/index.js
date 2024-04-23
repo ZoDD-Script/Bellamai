@@ -4,6 +4,8 @@ import close from './close.svg';
 import menu from './menu.svg';
 import whatsappIcon from './whatsapp.png';
 import user from './user.png'
+import about from './about.jpg'
+import analytics from './analytics.svg'
 
 export {
   logo,
@@ -12,4 +14,6 @@ export {
   menu,
   whatsappIcon,
   user,
+  about,
+  analytics
 }
