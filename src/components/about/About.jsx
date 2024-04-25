@@ -31,11 +31,29 @@ const About = () => {
             OUR FEATURES
           </h2>
           <div className='line'></div>
-          <div className=''>
-            <img src={analytics} className='analytics' />
+          <div className='about-features'>
+            <img src={analytics} className='analytics-img' />
             {/* <i className='fa fa-bar-diamond' ></i> */}
-            <h3 className='about-smallheader'>Mobile ready</h3>
-            <p className='features-paragraph'>Lorem jndkdlin dnkjndibujhcio jnckj,kj ckjiuchicoi iucoichoicujolkicu.ncncuciuhio</p>
+            <div>
+              <h3 className='about-smallheader'>Comprehensive Warranty</h3>
+              <p className='features-paragraph'>We stand by our designs with a robust warraty, ensurimg durability and satisfaction.</p>
+            </div>
+          </div>
+          <div className='about-features'>
+            <img src={analytics} className='analytics-img' />
+            {/* <i className='fa fa-bar-diamond' ></i> */}
+            <div>
+              <h3 className='about-smallheader'>Tailored Deals and Offers</h3>
+              <p className='features-paragraph'>Our attractive offers are crafted to fit your unique needs, ensuring that our partnershp is both rewarding and fulfilling.</p>
+            </div>
+          </div>
+          <div className='about-features'>
+            <img src={analytics} className='analytics-img' />
+            {/* <i className='fa fa-bar-diamond' ></i> */}
+            <div>
+              <h3 className='about-smallheader'>Looking forward</h3>
+              <p className='features-paragraph'>We are excited to embark on this design journey with you, aiming to not just meet but exceed your expectations, and to create together spaces of enduring beauty.</p>
+            </div>
           </div>
         </div>
       </section>

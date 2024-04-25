@@ -7,6 +7,7 @@
 
 .about-us {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   align-self: center;
   justify-content: space-between;
@@ -76,7 +77,31 @@
   margin-top: 1.5rem;
 }
 
-.analytics {
-  width: 2rem;
-  text-wra
+.analytics-img {
+  width: 1.5rem;
+  display: inline;
+  padding: 7px;
+  margin-right: 20px;
+  border: solid 1px #29b6f6;
+}
+
+.about-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.about-smallheader {
+  font-size: 15px;
+  color: #555555;
+  font-weight: bold;
+  margin: 0 0 10px;
+  padding: 0;
+  text-align: start;
+}
+
+.features-paragraph {
+  margin: 0 0 40px;
+  /* font-size: 12px; */
+  padding: 0;
 }
