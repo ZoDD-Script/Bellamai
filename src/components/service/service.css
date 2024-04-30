@@ -1,0 +1,58 @@
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  background-color: #fbfbfb;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.service-section {
+  width: 80%;
+}
+
+.service-header {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  display: block;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 5 rem;
+  padding-left: 45px;
+  position: relative;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-self: center;
+  justify-content: center;
+  align-items: start;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 30px 20px 25px 20px;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  width: 20rem;
+}
+
+.service-img {
+  width: 5rem;
+}
+
+.service-container .service-card h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: underline transparent;
+}

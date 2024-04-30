@@ -1,0 +1,57 @@
+.edge {
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../../assets/interior.jpg);
+  min-height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.edge-container {
+  width: 70%;
+  height: 20rem;
+  background-color: #fff;
+  padding: 70px 50px;
+}
+
+.edge-header {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.edge .edge-header h5 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #000;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  display: block;
+  position: relative;
+}
+
+.edge .edge-header p {
+  margin-bottom: 30px;
+  color: #545454;
+  font-size: 18px;
+  padding: 0;
+}
+
+.edge-btn {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  background: #29b6f6;
+  border: none;
+  padding: 21px 33px 21px 25px !important;
+  text-transform: capitalize;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  border-radius: 0px;
+  text-decoration: none;
+}

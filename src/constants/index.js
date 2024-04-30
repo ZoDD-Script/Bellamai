@@ -58,3 +58,18 @@ export const whatsapp = [
     title: "Sales"
   },
 ];
+
+export const clients = [
+  {
+    id: "client-1",
+    logo: dpdc,
+  },
+  {
+    id: "client-2",
+    logo: rh,
+  },
+  {
+    id: "client-4",
+    logo: pl,
+  },
+];

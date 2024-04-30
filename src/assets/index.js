@@ -6,6 +6,11 @@ import whatsappIcon from './whatsapp.png';
 import user from './user.png'
 import about from './about.jpg'
 import analytics from './analytics.svg'
+import chair from './chair.png'
+import interior from './interior.jpg'
+import dpdc from "./Dpdc logo.png";
+import rh from "./RH Logo.png";
+import pl from "./PL logo.png";
 
 export {
   logo,
@@ -15,5 +20,10 @@ export {
   whatsappIcon,
   user,
   about,
-  analytics
+  analytics,
+  chair,
+  interior,
+  dpdc,
+  rh,
+  pl
 }

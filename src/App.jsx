@@ -1,16 +1,17 @@
 import './App.css'
-import Navbar from './components/navbar/Navbar'
-import { Header } from './components'
-import About from './components/about/About'
+import { About, Clients, Edge, Header, NavBar, Service } from './components'
 
 function App() {
   return (
     <header>
       <section className="header">
-        <Navbar />
+        <NavBar />
         <Header />
       </section>
       <About />
+      <Service />
+      <Edge />
+      <Clients />
     </header>
   )
 }
