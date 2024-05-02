@@ -11,6 +11,8 @@ import interior from './interior.jpg'
 import dpdc from "./Dpdc logo.png";
 import rh from "./RH Logo.png";
 import pl from "./PL logo.png";
+import user1 from "./user1.png";
+import user2 from "./user2.png";
 
 export {
   logo,
@@ -25,5 +27,7 @@ export {
   interior,
   dpdc,
   rh,
-  pl
+  pl,
+  user1,
+  user2
 }
