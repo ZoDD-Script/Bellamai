@@ -1,4 +1,4 @@
-import { dpdc, pl, rh, user1, user2 } from "../assets";
+import { dpdc, facebook, instagram, linkedin, pl, rh, twitter, user1, user2 } from "../assets";
 
 export const navLinks = [
   {
@@ -92,5 +92,28 @@ export const feedback = [
     name: "Babajide",
     title: "Founder & Leader",
     img: user2,
+  },
+];
+
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: twitter,
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
   },
 ];

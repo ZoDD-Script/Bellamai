@@ -1,5 +1,5 @@
 import './App.css'
-import { About, Clients, Edge, Header, NavBar, Service, Testimonies } from './components'
+import { About, Clients, Edge, Footer, Header, NavBar, Service, Testimonies } from './components'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Edge />
       <Clients />
       <Testimonies />
+      <Footer />
     </header>
   )
 }
