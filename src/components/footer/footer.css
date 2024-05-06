@@ -10,8 +10,9 @@
   line-height: 20px;
 }
 
-p {
+.col > p, .footer_container > p {
   padding: 0;
+  color: #fff;
 }
 
 .row {

@@ -9,15 +9,15 @@ const Footer = () => {
       <div className="row">
         <div className="col">
           <img src={logo} alt="" className='logo' />
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, vero officia nemo qui voluptates iusto expedita delectus deserunt quas perferendis nulla commodi aliquam enim deleniti, ipsa quaerat. Est, eos ex.</p>
+          <p>At BELLA MAI DESIGNS by Precise, we don't just sell furniture and offer desig services; we provide a commitment - a commitment to quality, cretivity, and partnership. Join us in this journey to revolutionize furnitureand interior designs, where your vision is our mission.</p>
         </div>
         <div className="col">
           <h3>Office <div className="underline"><span></span></div></h3>
-          <p>ITPL Road</p>
-          <p>Whitefield, Bangalore</p>
-          <p>Karnataka, PIN 6575857, India</p>
-          <p className="email_id">prerciswlighting@preciselighting.ng</p>
-          <h4>+234 - 909557588476</h4>
+          <p>15A Emma Abimbola Cole</p>
+          <p>Lekki Phase 1</p>
+          <p>Lagos, Nigeria</p>
+          <p className="email_id">sales@preciselighting.com</p>
+          <h4>+234 - 9037944292</h4>
         </div>
         <div className="col">
           <h3>Links <div className="underline"><span></span></div></h3>

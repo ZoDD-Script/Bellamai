@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin: 3rem 0;
+  flex-wrap: wrap;
 }
 
 .about-us {
@@ -105,4 +106,16 @@
   margin: 0 0 40px;
   /* font-size: 12px; */
   padding: 0;
+}
+
+@media (max-width: 1268px) {
+  .about-image-container {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 679px) {
+  .about-container {
+    flex-basis: 100%;
+  }
 }

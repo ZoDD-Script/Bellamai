@@ -50,7 +50,6 @@ const Testimonials = () => {
             Our Elite network, combined with your personal needs, allows us to
             create a home plan specifically tailored to you.
           </p>
-          <button>GET A QUOTE</button>
         </div>
       </div>
     </section>
