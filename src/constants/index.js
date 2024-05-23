@@ -31,7 +31,7 @@ export const navLinks = [
 export const whatsapp = [
   {
     id: "wa-1",
-    name: "Kharis",
+    name: "Tomiwa",
     number: "+2349035434254",
     title: "Reatail sales specialist"
   },
