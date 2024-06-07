@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className='about-container'>
           <h2 className='about-header'>
-            WE ARE BELLA MAI
+            WE ARE BELLA MAI    
           </h2>
           <div className='line'></div>
           <p className='about-paragraph'>
@@ -24,7 +24,7 @@ const About = () => {
             <li>Collaborative design excellence.</li>
             <li>Unwavering commitment to innovation and elegance.</li>
           </ul>
-          <a href='' className='btn'>Know More</a>
+          <a target='blank' href='https://www.instagram.com/bellamai.designs?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='btn'>Know More</a>
         </div>
         <div className='about-container'>
           <h2 className='about-header'>

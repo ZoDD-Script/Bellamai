@@ -37,7 +37,7 @@ const Footer = () => {
           </form>
           <div className="social_icons">
             {socialMedia.map((social, index) => (
-              <img key={social.id} src={social.icon} alt={social.id} className='' />
+              <a target='blank' href={social.link}><img key={social.id} src={social.icon} alt={social.id} className='' /></a>
             ))}
           </div>
         </div>

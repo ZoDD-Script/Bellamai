@@ -18,6 +18,10 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import chair1 from "./chair1.jpg";
+import chair2 from "./chair2.jpg"
+import chair3 from "./chair3.jpg"
+import chair4 from "./chair4.jpg"
 
 export {
   logo,
@@ -40,4 +44,8 @@ export {
   instagram,
   linkedin,
   twitter,
+  chair1,
+  chair2,
+  chair3,
+  chair4,
 }
